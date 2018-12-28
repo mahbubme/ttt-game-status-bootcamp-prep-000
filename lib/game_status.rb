@@ -29,6 +29,7 @@ def won?( board )
       return win_combination
     end
   end
+  WIN_COMBINATIONS.detect do |win_combination|
 end
 
 def full? ( board )
